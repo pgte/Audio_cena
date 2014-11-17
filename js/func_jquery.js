@@ -18,7 +18,7 @@
 	$(document).ready(function(){
 		$(".bolas").click(function(){
 			var playSound = ac.createBufferSource(); 
-//			playSound.buffer = binj; 
+			playSound.buffer = binj; 
 			playSound.connect(ac.destination); 
 			playSound.noteOn(0); 
 		}); 
