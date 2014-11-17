@@ -1,0 +1,49 @@
+
+div {
+	background-color: gray;
+	height:  300px; 
+	width: 333px;
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	border: 0px;
+}
+
+p {
+	font-family: Arial; 
+	font-size: 14px;
+	font-style: color: white;
+
+
+}
+
+.scale {
+	width: 333px;
+	height: 20px; 
+	display: inline-block;
+	float: top;
+	position: relative;
+	padding-bottom: 30px; 
+	padding-top:: 0px; 
+	border-style: solid;
+	border-color: white;
+	border-bottom-width: 1px; 
+}
+
+.bolas {
+	display: inline-block;
+	background-color: black;
+	height:  40px; 
+	width: 40px; 
+	border-radius: 20px; 
+	border-style: solid; 
+	border-color: orange;
+	border-width: 2px;  
+	padding: 0em;
+	margin: 0px;
+	box-shadow: -1px 10px 10px 0px rgba(50, 50, 50, 0.6);
+}
+
+.bolas:hover {
+	background-color: orange; 
+}
