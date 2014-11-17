@@ -20,7 +20,7 @@
 			var playSound = ac.createBufferSource(); 
 			playSound.buffer = binj; 
 			playSound.connect(ac.destination); 
-			playSound.noteOn(0); 
+			playSound.starOn(0); 
 		}); 
 	}); 
 }());
