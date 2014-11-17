@@ -2,7 +2,7 @@
 	var ac = new AudioContext(); 
 	var binj; 
 	var getbinj = new XMLHttpRequest(); 
-	getbinj.open("GET", "http://www.arrl.org/files/file/Morse/140917_05WPM.mp3", true); 
+	getbinj.open("GET", "aud_samp / 01_Big_in_Japan.mp3", true); 
 	getbinj.responseType = "arraybuffer"; 
 	getbinj.onload = function () {
 		ac.decodeAudioData(getbinj.response, function(buffer){
